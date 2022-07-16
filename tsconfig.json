@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"strict": true,
+		"removeComments": true,
+		"outDir": "./dist",
+		"sourceMap": false,
+		"rootDir": ".",
+		"declaration": false,
+		"baseUrl": "./core",
+		"isolatedModules": true,
+		"target": "es5",
+		"esModuleInterop": true
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}

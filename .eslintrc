@@ -1,0 +1,9 @@
+{
+	"rules": {
+		"semi": ["error", "always"],
+		"quotes": ["error", "single"]
+	},
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"ignorePatterns": ["dist"]
+}
